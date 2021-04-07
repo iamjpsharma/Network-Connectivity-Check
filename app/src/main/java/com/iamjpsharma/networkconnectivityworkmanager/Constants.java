@@ -1,4 +1,4 @@
-package com.jiteshmohite619.android_network_connectivity;
+package com.iamjpsharma.networkconnectivityworkmanager;
 
 /**
  * Created by jiteshmohite on 07/02/18.

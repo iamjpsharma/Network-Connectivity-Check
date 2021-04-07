@@ -1,9 +1,11 @@
-package com.jiteshmohite619.android_network_connectivity;
+package com.iamjpsharma.networkconnectivityworkmanager;
 
 import android.app.job.JobParameters;
 import android.app.job.JobService;
 import android.content.Intent;
 import android.content.IntentFilter;
+import android.os.Build;
+import android.support.annotation.RequiresApi;
 import android.util.Log;
 import android.widget.Toast;
 
@@ -12,6 +14,7 @@ import android.widget.Toast;
  * ultimately land on this service's "onStartJob" method.
  * @author jiteshmohite
  */
+@RequiresApi(api = Build.VERSION_CODES.LOLLIPOP)
 public class NetworkSchedulerService extends JobService implements
         ConnectivityReceiver.ConnectivityReceiverListener {
 

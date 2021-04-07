@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-          package="com.jiteshmohite619.android_network_connectivity">
+          package="com.iamjpsharma.networkconnectivityworkmanager">
 
     <uses-permission android:name="android.permission.INTERNET"/>
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
@@ -14,7 +14,7 @@
     <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
 
     <application
-        android:name=".MyApplication"
+        android:name="com.iamjpsharma.networkconnectivityworkmanager.MyApplication"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
@@ -22,7 +22,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".NetworkConnectionActivity"
+            android:name="com.iamjpsharma.networkconnectivityworkmanager.NetworkConnectionActivity"
             android:theme="@style/AppTheme.NoActionBar"
             >
             <intent-filter>
@@ -35,7 +35,7 @@
 
         <!-- Define your service, make sure to add the permision! -->
         <service
-            android:name=".NetworkSchedulerService"
+            android:name="com.iamjpsharma.networkconnectivityworkmanager.NetworkSchedulerService"
             android:exported="true"
             android:permission="android.permission.BIND_JOB_SERVICE"/>
     </application>

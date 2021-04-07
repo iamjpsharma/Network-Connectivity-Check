@@ -1,4 +1,4 @@
-package com.jiteshmohite619.android_network_connectivity;
+package com.iamjpsharma.networkconnectivityworkmanager;
 
 import android.app.job.JobInfo;
 import android.app.job.JobScheduler;
@@ -22,6 +22,7 @@ import android.widget.TextView;
  */
 public class NetworkConnectionActivity extends AppCompatActivity {
 
+    @RequiresApi(api = Build.VERSION_CODES.LOLLIPOP)
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

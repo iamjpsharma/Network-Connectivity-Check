@@ -3,7 +3,7 @@ apply plugin: 'com.android.application'
 android {
     compileSdkVersion 26
     defaultConfig {
-        applicationId "com.jiteshmohite619.android_network_connectivity"
+        applicationId "com.iamjpsharma.networkconnectivityworkmanager"
         minSdkVersion 15
         targetSdkVersion 26
         versionCode 1

@@ -1,4 +1,4 @@
-package com.jiteshmohite619.android_network_connectivity;
+package com.iamjpsharma.networkconnectivityworkmanager;
 
 import android.content.BroadcastReceiver;
 import android.content.Context;
