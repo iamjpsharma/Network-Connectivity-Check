@@ -15,11 +15,6 @@ import android.support.v7.widget.Toolbar;
 import android.view.View;
 import android.widget.TextView;
 
-/**
- * This class will schedule the job and notify the activity about network changes.
- *
- * @author jiteshmohite
- */
 public class NetworkConnectionActivity extends AppCompatActivity {
 
     @RequiresApi(api = Build.VERSION_CODES.LOLLIPOP)

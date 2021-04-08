@@ -4,10 +4,6 @@ import android.app.Activity;
 import android.app.Application;
 import android.os.Bundle;
 
-/**
- * This class make sure about life cycle callbacks and maintain the state of activity.
- * Created by jiteshmohite on 07/02/18.
- */
 
 public class MyApplication extends Application implements Application.ActivityLifecycleCallbacks {
     private static boolean isInterestingActivityVisible;

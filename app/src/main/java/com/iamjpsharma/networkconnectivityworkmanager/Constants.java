@@ -1,9 +1,5 @@
 package com.iamjpsharma.networkconnectivityworkmanager;
 
-/**
- * Created by jiteshmohite on 07/02/18.
- */
-
 public class Constants {
 
     public static final String CONNECT_TO_WIFI = "WIFI";

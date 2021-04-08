@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getTargetContext();
 
-        assertEquals("com.jiteshmohite619.android_network_connectivity", appContext.getPackageName());
+        assertEquals("com.iamjpsharma.networkconnectivityworkmanager", appContext.getPackageName());
     }
 }

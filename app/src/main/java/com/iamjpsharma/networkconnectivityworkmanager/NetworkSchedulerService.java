@@ -9,11 +9,7 @@ import android.support.annotation.RequiresApi;
 import android.util.Log;
 import android.widget.Toast;
 
-/**
- * Service to handle callbacks from the JobScheduler. Requests scheduled with the JobScheduler
- * ultimately land on this service's "onStartJob" method.
- * @author jiteshmohite
- */
+
 @RequiresApi(api = Build.VERSION_CODES.LOLLIPOP)
 public class NetworkSchedulerService extends JobService implements
         ConnectivityReceiver.ConnectivityReceiverListener {
